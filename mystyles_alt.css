@@ -1,0 +1,122 @@
+
+div.background {
+    background: url("http://www.hdwallpaperscool.com/wp-content/uploads/2015/04/lake-glacier-national-park-montana-high-resolution-wallpaper-download-glacier-national-park-images-free.jpg") ;border: 2px solid black;
+    background-size: contain;
+}
+
+div.transbox {
+	width: 50%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+}
+
+div.transbox div {
+	line-height: 1.2em;
+    font-weight: bold;
+    color: #000000;
+}
+
+div.transbox1 {
+	width: 90%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+}
+
+
+h1 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Arial Black', sans-serif;
+	position: relative;  
+	font-size: 40px;
+	line-height: 40px;
+	padding: 20px 20px 40px 30%;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	background-color: black
+}
+
+h2 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Arial Black', sans-serif;
+	position: relative;  
+	font-size: 24px;
+	line-height: 24px;
+	padding: 4px 4px 4px 4%;
+	color: white;
+	border-radius: 0 10px 0 10px;
+
+}
+
+div.picdiv {
+	display: none;
+}
+
+.button {
+  font-size: 40px;
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  position: relative;  
+}
+
+a:link, a:visited {
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+}
+
+li {
+	font-size: 18px;
+	line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+	background-color: #294230;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.description {
+	font-size: 20px;
+  font-weight: lighter;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 70%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 20%;
+}
+
